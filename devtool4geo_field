@@ -1,0 +1,8 @@
+PUT f2b-geo
+{
+  "mappings": {
+    "properties": {
+      "location_point": { "type": "geo_point" }
+    }
+  }
+}
